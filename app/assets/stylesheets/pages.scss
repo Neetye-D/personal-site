@@ -1,0 +1,116 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+html { 
+    
+    background: asset-url('background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.781); /* Tint color */
+    background-blend-mode: multiply;
+}
+
+.container{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.24); 
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color:2px  black;
+    width: 38rem;
+    color: white;
+    border-radius: 8px;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+  }
+
+.profile-pic{
+    background: asset-url('profile-pic.jpg');
+    border-radius: 50%;
+    width: 5.6rem;
+    align-content: center;
+    margin-left: 43%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.links{
+    cursor: pointer;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: 5px;
+} 
+
+.circle{
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 20px;
+    filter: brightness(1) invert(1.5);
+}
+
+.description {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #fdfdfd; 
+    border: none;
+    color: rgb(17, 16, 16);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    margin: 4px;
+  }
